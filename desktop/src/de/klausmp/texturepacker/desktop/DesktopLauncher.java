@@ -9,8 +9,6 @@ import de.klausmp.texturepacker.Main;
 public class DesktopLauncher {
 
 	public static void main (String[] arg) {
-		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new Main(), config);
 		TexturePacker.Settings settings = new TexturePacker.Settings();
 		settings.maxWidth = 4096;
 		settings.maxHeight = 4096;
